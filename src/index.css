@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+	width: 80%;
+	margin: 2% auto;
+	border: 1px solid #35363a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.header {
+	padding: 10px;
+	background-color: #35363a;
+	color: #f8f8f8;
+}
+
+.results {
+	padding: 10px 5px 10px 10px;
+	color: #353a46;
+}
+
+.input {
+	padding: 10px;
+	background-color: #35363a;
+	color: #f8f8f8;
+}
+input:focus {
+	outline: 0;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.5em;
+}
+
+.form-control input {
+	width: 60%;
+	height: 1em;
+	padding: 15px 0px;
+	font-size: 1rem;
+}
+
+.btn-row {
+	display: flex;
+	margin: 1em 0em 0.3em;
+}
+
+.btn {
+	display: inline-block;
+	background: rgb(158, 158, 158);
+	color: #fff;
+	border: none;
+	padding: 0.2em 1em;
+	margin-right: 0.6em;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-family: inherit;
+}
+.btn:focus {
+	outline: 0;
+}
+
+.add-btn {
+	background: #008018;
+	color: white;
+}
+.add-btn:hover {
+	background: #91fe9e;
+	color: black;
+}
+.edit-btn {
+	background: blue;
+	color: white;
+}
+.edit-btn:hover {
+	background: #92f5ff;
+	color: black;
+}
+.clear-btn {
+	background: gray;
+	color: white;
+}
+.clear-btn:hover {
+	background: #f3f3f3;
+	color: black;
+}
+.entity-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.entity {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f1f1f1;
+	color: black;
+	border-radius: 8px;
+	padding: 5px 5px;
+	margin-right: 0.3em;
+	margin-bottom: 0.5em;
+	cursor: pointer;
+}
+
+.entity:hover {
+	background-color: #ecfbfd;
+}
+
+.entity.selected {
+	background-color: #92f5ff;
+}
+
+.entity-input {
+	flex-grow: 1;
+}
+
+.entity-threshold,
+.entity-massdismissal,
+.entity-socialplan {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	padding: 5px 10px;
+	margin-left: 0.5em;
+}
