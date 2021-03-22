@@ -228,15 +228,15 @@ const Input = ({
 		<div className="input">
 			<form className="input-form">
 				<div className="form-control">
-					<label>Entity:</label>
-					<input ref={inputNameRef} type="text" placeholder="Entity name" />
+					<label>Entity Name:</label>
+					<input ref={inputNameRef} type="text" placeholder="Entity" />
 				</div>
 				<div className="form-control">
-					<label>Workforce:</label>
+					<label>Total Workforce:</label>
 					<input ref={inputWorkforceRef} type="text" placeholder="Workforce" />
 				</div>
 				<div className="form-control">
-					<label>Affected:</label>
+					<label>Affected Employees:</label>
 					<input ref={inputAffectedRef} type="text" placeholder="Affected" />
 				</div>
 			</form>

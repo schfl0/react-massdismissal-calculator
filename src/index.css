@@ -8,14 +8,14 @@
 .App {
 	width: 80%;
 	margin: 2% auto;
-	border: 1px solid #35363a;
+	border: 1px solid #4ca09f;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
 .header {
 	padding: 10px;
-	background-color: #35363a;
+	background-color: #4ca09f;
 	color: #f8f8f8;
 }
 
@@ -26,7 +26,7 @@
 
 .input {
 	padding: 10px;
-	background-color: #35363a;
+	background-color: #4ca09f;
 	color: #f8f8f8;
 }
 input:focus {
@@ -42,6 +42,8 @@ input:focus {
 .form-control input {
 	width: 60%;
 	height: 1em;
+	border: none;
+	margin-top: 2px;
 	padding: 15px 0px;
 	font-size: 1rem;
 }
@@ -69,11 +71,11 @@ input:focus {
 }
 
 .add-btn {
-	background: #008018;
+	background: #ff7657;
 	color: white;
 }
 .add-btn:hover {
-	background: #91fe9e;
+	background: #fabfb2;
 	color: black;
 }
 .edit-btn {
@@ -85,7 +87,7 @@ input:focus {
 	color: black;
 }
 .clear-btn {
-	background: gray;
+	background: rgb(165, 165, 165);
 	color: white;
 }
 .clear-btn:hover {
@@ -114,11 +116,11 @@ input:focus {
 }
 
 .entity:hover {
-	background-color: #ecfbfd;
+	background-color: #fff1ef;
 }
 
 .entity.selected {
-	background-color: #92f5ff;
+	background-color: #ffe1da;
 }
 
 .entity-input {
